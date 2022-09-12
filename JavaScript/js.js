@@ -4,65 +4,65 @@ carts = document.querySelectorAll(".add-cart");
 let products = [
     { // this array have object inside
 
-    name: 'a',
-    tag: '1',
+    name:'Demon-slayer',
+    tag: 'Demon-slayer',
     Price: 15,
     Incart: 0
 },
 
 { // this array have object inside
 
-    name: 'b',
-    tag: '2',
+    name: 'My Dad is a Grzzly Bear',
+    tag: 'images',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'c',
-    tag: '3',
+    name: 'ginger-the-giraffe',
+    tag: 'ginger-the-giraffe',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'd',
-    tag: '4',
+    name: 'The great Indian Novel',
+    tag: 'The great Indian Novel',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'e',
-    tag: '5',
+    name: 'wimpy-kid',
+    tag: 'wimpy-kid',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'f',
-    tag: '6',
+    name: 'mountain',
+    tag: 'mountain',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'g',
-    tag: '7',
+    name: 'educated',
+    tag: 'educated',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'h',
-    tag: '8',
+    name: 'women',
+    tag: 'women',
     Price: 15,
     Incart: 0
 },
 { // this array have object inside
 
-    name: 'i',
-    tag: '9',
+    name: 'Blink',
+    tag: 'Blink',
     Price: 15,
     Incart: 0
 }
@@ -171,11 +171,10 @@ function displaycart(){
             productContainer.innerHTML += `
             <div class="product"><br><br>
             <ion-icon name="close-circle-outline"></ion-icon>
-            <img src = "img/${item.tag}.jpg">
-            
+            <img src = "./img/${item.tag}.jpg">
             <span>${item.name}</span> 
             </div>
-            <div class ="prices">${item.Price}</div>
+            <div class ="prices">$${item.Price}</div>
             <div class="quantitys">
             <ion-icon name="caret-back-outline"></ion-icon>
             <span>${item.Incart}</span>

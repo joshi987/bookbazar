@@ -33,6 +33,8 @@
     border-radius: 2rem;
     background-color: #FF7F50;
     border: none;
+    margin-left: auto;
+    margin-right:auto ;
 }
 .Login{
     font-family: 'Source Sans Pro', sans-serif;
