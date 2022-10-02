@@ -19,6 +19,7 @@
         width: 42rem;
         background-color: white;
         border-radius: 1.5rem;
+        position: relative;
     }
     .sign-up-1{
         position: relative;
@@ -28,8 +29,8 @@
     width: 30rem;
     height: 3rem;
     position: absolute;
-    top: 23rem;
-    left: 47rem;
+    top: 20rem;
+    left: 6rem;
     border-radius: 2rem;
     background-color: #FF7F50;
     border: none;
@@ -44,8 +45,8 @@
 .second-username{
     
     position: absolute;
-    top: 7.5rem;
-    left: 44.2rem;
+    top: 5.5rem;
+    left: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3rem;
     
@@ -53,8 +54,8 @@
 
 .second-password{
     position: absolute;
-   top:  14.5rem;
-    left: 44.2rem;
+   top:  12.5rem;
+   left: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3rem;
     
@@ -90,8 +91,8 @@
 
 #forget{
     position: absolute;
-    left: 72rem;
-    top: 21rem;
+    left: 35rem;
+    top: 18rem;
 }
 
 span input {
@@ -107,3 +108,108 @@ bottom: 2.8rem;
     top: 2rem;
 
 }
+
+
+/* ..................................Responsive........................................................................................... */
+/* @media only screen and (min-width: 1681px) and (max-width: 3024px) { */
+    /* body{
+        font-size: 1.1rem;
+        
+      } */
+      /* #container{
+          border: solid black;
+          height: 48rem;
+          width: 42rem;
+          background-color: white;
+          border-radius: 1.5rem;
+      } */
+      /* .sign-up-1{
+          position: relative;
+          top: 2rem;
+      }
+  #login{
+      width: 30rem;
+      height: 3rem;
+      position: absolute;
+      top: 23rem;
+      left: 136rem;
+      border-radius: 2rem;
+      background-color: #FF7F50;
+      border: none;
+      margin-left: auto;
+      margin-right:auto ;
+  }
+  .Login{
+      font-family: 'Source Sans Pro', sans-serif;
+  
+  }
+  
+  .second-username{
+      
+      position: absolute;
+      top: 7.5rem;
+      left: 131.2rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.3rem;
+      
+  }
+  
+  .second-password{
+      position: absolute;
+     top:  14.5rem;
+     left: 131.2rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.3rem;
+      
+  }
+  
+  .username input{
+      width: 37rem;
+      height: 3rem;
+      
+  }
+  
+  .password input{
+      width: 37rem;
+      height: 3rem;
+  }
+  .sign-up-1{
+      position: relative;
+      right: 0;
+      top: -1rem;
+  }
+  
+  .sign-up-2{
+      position: absolute;
+      left: 15rem;
+      top: 3rem;
+  }
+  .sign-up-using{
+  
+      position: relative;
+      right: 0rem;
+      font-size: medium;
+  }
+  
+  #forget{
+      position: absolute;
+      left: 160rem;
+      top: 21rem;
+  }
+  
+  span input {
+  
+  position: relative;
+  left: 5.8rem;
+  bottom: 2.8rem;
+  }
+  
+  .remember{
+  
+      position: relative;
+      top: 2rem;
+  
+  }
+  
+    
+  } */
