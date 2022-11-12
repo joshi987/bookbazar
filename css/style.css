@@ -459,9 +459,12 @@ body .h2{
   color: rgb(10, 11, 11);
   position: relative;
 top: -1em;
-left: 1em;
+left: -1em;
 z-index: -1;
+background-color: aqua;
+border: solid red;
 }
+
 
 #quote1{
   display: flex;
@@ -669,135 +672,138 @@ display: flex;
   text-decoration: none;
   color: rgb(237, 237, 237);
   background-color: chocolate;
-  border-radius: 20%;
+  border-radius: 50%;
   cursor: pointer;
+  margin-bottom: -0.5em;
 
 }
 
 
 .cart1{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
 }
 
 .cart2{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
 }
 
 .cart3{
   display: block;
-  height: 35px;
-  width: 100%;
+  height: 37px;
+  width: 78%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: 1em;
 }
 
 .cart4{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
 }
 
 .cart5{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
 }
 .cart6{
   display: block;
-  height: 35px;
-  width: 100%;
+  height: 37px;
+  width: 78%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: 1em;
 }
 
 .cart7{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
 }
 
 .cart8{
   display: block;
-  height: 35px;
+  height: 39px;
   width: 100%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: -1em;
+  margin-top: -1.2em;
 }
+
 
 .cart9{
   display: block;
-  height: 35px;
-  width: 100%;
+  height: 37px;
+  width: 78%;
   text-align: center;
   font-size: 2rem;
- 
   color: bisque;
-  position: absolute;
-  right: 0rem;
-  bottom: 1rem;
-  border-radius: 2%;
+  /* position: absolute; */
+  /* right: 0rem; */
+  /* bottom: 2rem; */
+  border-radius: 1%;
+  margin-left: 1em;
 }
 
 
