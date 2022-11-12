@@ -1,25 +1,36 @@
 * {
     margin: 1em;
     padding: 0px;
+    
   }
   html{
       font-size: 62.5%;
-      background-color: #DE3163
+     
+      /* background-image: linear-gradient(250deg, #cddfc4 45%, #6abcb5 74%); */
+      background-image: url("/img/books/kourosh-qaffari-RrhhzitYizg-unsplash.jpg");
+      background-size:cover;
+       
+      background-repeat: no-repeat;
+
+      
       
       
   }
   
   body{
       font-size: 1.1rem;
+     
       
     }
     #container{
-        border: solid black;
+        border: solid rgb(113, 38, 107);
         height: 48rem;
         width: 42rem;
         background-color: white;
         border-radius: 1.5rem;
         position: relative;
+        background-image: linear-gradient(300deg, #7a5de0 0%, #972c79 60%);
+    
     }
     .sign-up-1{
         position: relative;
@@ -66,6 +77,8 @@
     height: 3rem;
     
 }
+
+
 
 .password input{
     width: 37rem;
